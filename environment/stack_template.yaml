@@ -56,7 +56,7 @@ Resources:
 
             git clone https://github.com/Chillwall/anomaly_detection.git
 
-            chmod o+w -R cd /home/ubuntu/ts_anomaly_detection
+            chmod o+w -R cd /home/ubuntu/anomaly_detection
 
             wget -q https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -P /home/ubuntu/
             HOME=~ bash /home/ubuntu/Miniconda3-latest-Linux-x86_64.sh -b -p /home/ubuntu/miniconda
@@ -65,7 +65,7 @@ Resources:
             source "/home/ubuntu/miniconda/bin/activate"
             conda init
 
-            cd /home/ubuntu/ts_anomaly_detection/environment
+            cd /home/ubuntu/anomaly_detection/environment
             conda env create -f environment_file.yml
             sed -i '1d' "/etc/profile.d/boosterpack.sh"
             wall "********** DAIR BoosterPack Installing Complete **********"
