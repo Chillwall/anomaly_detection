@@ -15,7 +15,7 @@ Parameters :
 
 
   IpAddress:
-    Description: Your Public IP Address
+    Description: User's Public IP Address
     Type: String
  
 Resources:
