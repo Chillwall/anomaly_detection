@@ -94,7 +94,7 @@ dependencies:
       - termcolor==2.4.0
       - typing-extensions==4.12.2
       - tzdata==2024.1
-      - urllib3==2.2.1
+      - urllib3==2.2.2
       - werkzeug==3.0.3
       - wrapt==1.16.0
 prefix: /home/ubuntu/.conda/envs/sklearn-env
